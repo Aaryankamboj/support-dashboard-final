@@ -3,6 +3,8 @@ name: Weekly Support Dashboard
 on:
   schedule:
     - cron: "30 1 * * 1"
+  workflow_dispatch:
+
 permissions:
   contents: write
 
